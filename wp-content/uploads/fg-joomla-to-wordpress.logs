@@ -1,0 +1,37 @@
+=== START empty 2021-12-13 18:13:26 ===
+WordPress content removed
+=== END empty 2021-12-13 18:13:26 ===
+
+=== START test_download 2021-12-13 18:13:34 ===
+FILE SYSTEM connection successful
+=== END test_download 2021-12-13 18:13:34 ===
+
+=== START test_database 2021-12-13 18:13:45 ===
+Connected with success to the Joomla database
+Joomla data found:
+3 categories
+6 articles
+
+=== END test_database 2021-12-13 18:13:45 ===
+
+=== START import 2021-12-13 18:13:55 ===
+Connected with success to the Joomla database
+Joomla data found:
+3 categories
+6 articles
+
+FILE SYSTEM connection successful
+Importing categories...
+3 categories imported
+Importing posts...
+6 posts imported
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2021-12-13 18:13:57 ===
+
+=== START modify_links 2021-12-13 18:14:11 ===
+Modifying internal links...
+0 internal links modified
+=== END modify_links 2021-12-13 18:14:11 ===
+

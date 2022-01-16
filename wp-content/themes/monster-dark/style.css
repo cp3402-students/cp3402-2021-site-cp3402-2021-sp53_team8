@@ -1,0 +1,233 @@
+/*
+Theme Name: Monster Dark
+Theme URI: https://themearile.com/monster-dark-theme/
+Template: designexo
+Author: ThemeArile
+Author URI: https://themearile.com
+Description: Monster Dark is a stunning multipurpose WordPress theme for businesses and enterprises with mobile-ready design and outstanding functionality. Designed with a user-friendly approach so can be handled with ease even by the newbies who do not have any knowledge about websites and templates. It comes with a dark proficient layout and great color scheme. The theme is perfectly suited for business, consultant, finance, corporate, freelancer, agency, business promotion, electrician, industries, education, SEO, construction, fashion, online shop, health & medical, Beauty & spa salons, wedding, photography, gym, cafe, music, architecture, lawyer, restaurant, hotel, blog, magazine, travel agency and many other websites compatible. It has some exotic features like clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and being Mobile-ready, translation ready (WPML, Polylang) and it's built to be beautiful on all screen sizes. This theme supports the best Elementor page builder to create, edit, and update page designs as per the requirement. InteriorPress also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, Google Analytics, and much more. Check the demo of Designexo Pro https://themearile.com/designexo-pro-theme/.
+Version: 1.2
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: monster-dark
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+*/
+
+/*--------------------------------------------------
+=>> Body Custom Background Css
+--------------------------------------------------*/
+
+body.custom-background .theme-bg-dark,
+body.custom-background .theme-bg-default, 
+body.custom-background .theme-blog.theme-bg-grey {
+    background-color: transparent !important;
+}
+
+/*--------------------------------------------------
+=>> Page Header Area
+--------------------------------------------------*/
+
+.theme-page-header-area {
+    padding: 7.9375rem 0 7.9375rem 0;
+}
+.page-header-title h1 {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+
+/*--------------------------------------------------
+=>> Slider Section
+--------------------------------------------------*/
+
+.theme-text-center {
+    text-align: center !important;
+}
+.theme-caption-bg.align-center {
+    margin: 0 auto;
+	width: 85%;
+}
+.theme-main-slider .overlay {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-slider-content .theme-caption-bg .title-large, 
+.theme-slider-content .theme-caption-bg2 .title-large {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.theme-slider-content .sub-title {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+
+/*--------------------------------------------------
+=>> Theme Section Title & Subtitle 
+--------------------------------------------------*/
+
+h2, .theme-section-module .theme-section-title {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+
+/*--------------------------------------------------
+=>> Service Section
+--------------------------------------------------*/
+
+.theme-services .service-title, .service-content p, .service-links, .service-content-thumbnail {
+    text-align: center;
+}
+.theme-services .service-title {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.service-links a {
+	text-transform: capitalize;
+	letter-spacing: 0;
+}
+.theme-services .service-content-thumbnail i.fa {
+    font-size: 3.5rem;
+}
+
+/*--------------------------------------------------
+=>> Theme Project Area   
+--------------------------------------------------*/
+
+.theme-project .theme-project-content .theme-project-title {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+
+/*--------------------------------------------------
+=>> Navbar Menu
+--------------------------------------------------*/
+
+.navbar .nav .menu-item .nav-link {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.navbar .nav .menu-item .dropdown-item {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+
+/*--------------------------------------------------
+=>> Testimonial Section
+--------------------------------------------------*/
+
+.theme-testimonial-overlay {
+    background-color: rgba(0,0,0,0.7) !important;
+}
+/*--------------------------------------------------
+=>> Blog Section
+--------------------------------------------------*/
+.entry-content {
+    overflow: unset;
+}
+
+/*Table Color Styles*/
+table, th, td { border: 1px solid #333; }
+thead th { border-bottom: 2px solid #333; }
+th { background: #202020; color: #fff; }
+/*wp-block-calendar*/
+.wp-block-calendar table.wp-calendar-table th {
+	background: #202020;
+}
+.wp-block-calendar tbody td, .wp-block-calendar th {
+	border: 1px solid #333;
+}
+.wp-block-calendar tbody td {
+	color: #ddd;
+}
+.theme-blog .post .entry-title {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.entry-meta {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.more-link {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.comment-detail-title {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.reply a {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.theme-comment-title h4 {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.widget .widget-title {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+
+/*-----------------------------------------------------
+=>> Sidebar Widget Style Css According to WordPress 5.8
+-----------------------------------------------------*/
+.sidebar .widget .wp-block-group h2, 
+.sidebar .widget .wp-block-search .wp-block-search__label { 
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.sidebar .widget .wp-block-group .wp-block-media-text, 
+.sidebar .widget .wp-block-group .wp-block-embed,
+.sidebar .widget .wp-block-group .wp-block-image, 
+.sidebar .widget .wp-block-group .wp-block-file {
+    padding: 1.563rem 1.000rem 1.563rem;
+}
+.sidebar .widget .wp-block-group .wp-block-latest-comments .wp-block-latest-comments__comment {
+	margin-top: 0.500rem;
+}
+.sidebar .widget .wp-block-group .wp-block-latest-comments article {
+	margin-bottom: 0.500rem;
+}
+.sidebar .widget .wp-block-group .wp-block-latest-comments__comment-meta {
+	font-weight: 600;
+}
+.sidebar .widget .wp-block-group .wp-block-latest-comments__comment-excerpt p, 
+.sidebar .widget .wp-block-group .wp-block-latest-comments__comment-date {
+	font-size: 1rem;
+}
+.sidebar .widget .wp-block-group .wp-block-latest-comments .wp-block-latest-comments__comment:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+.sidebar .widget .wp-block-group .wp-block-verse {
+	margin: 1.563rem 1.000rem 1.563rem;
+	background: #202020;
+	color: #ddd;
+}
+.sidebar .widget .wp-block-group .wp-block-cover {
+	margin: 1.563rem 1.000rem 1.563rem;
+	width: 90%;
+}
+
+
+/*------------------------------------------------------------
+=>> Footer Sidebar Widget Style Css According to WordPress 5.8
+------------------------------------------------------------*/
+
+.footer-sidebar .widget .wp-block-group h2 {
+    text-transform: capitalize;
+	letter-spacing: 0;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments .wp-block-latest-comments__comment {
+	margin-top: 0.500rem;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments article {
+	margin-bottom: 0.500rem;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments__comment-meta {
+	font-weight: 600;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments__comment-excerpt p, 
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments__comment-date {
+	font-size: 1rem;
+}
+
